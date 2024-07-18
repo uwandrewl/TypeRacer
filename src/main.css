@@ -1,0 +1,12 @@
+div#app {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+div#left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
