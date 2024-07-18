@@ -1,4 +1,4 @@
-# Type Racing Game!
+# Type Racing Game
 Author: Andrew Lu
 
 - cd to TypeRacingGame folder
