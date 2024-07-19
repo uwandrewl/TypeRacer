@@ -1,7 +1,9 @@
 # Type Racing Game
 Author: Andrew Lu
 
-- cd to TypeRacingGame folder
-- Install Node.js in terminal with "sudo apt install nodejs" (may need to run "sudo apt update" to update package list)
-- run "npm install" in the terminal
-- run "npm run dev" and copy local host link into a Chrome browser to play the game!
+- An app that allows you to play up to 20 concurrent games!
+- Supports undo/redo actions on font resizing, word completion/selection and resetting the game
+- Built using MVC/Observer pattern for the multiple views on the same internal state
+- Memento pattern captures the internal state in chunks allowing for undo/redo actions
+- Utilized CSS styling and wrote the game imperatively as Typescript/CSS modules
+- Transpiled all the Typescript and CSS files (why you only see one .ts and .css file!)
