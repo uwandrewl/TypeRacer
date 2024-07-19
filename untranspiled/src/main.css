@@ -5,8 +5,14 @@ div#app {
     overflow: hidden;
 }
 
+div#body {
+    display: flex;
+    height: calc(100vh - 50px);
+    flex-direction: row;
+}
+
 div#left {
-    flex: 1;
     display: flex;
     flex-direction: column;
+    width: 66.667%;
 }

@@ -1,15 +1,12 @@
 div#right {
   display: flex;
-  position: absolute;
-  top: 50px;
-  left: 66.667%;
   background-color: whitesmoke;
   border: 1px solid black;
   flex-direction: column;
   gap: 20px;
   padding: 10px;
   width: 33.333%;
-  height: calc(100% - 50px);
+  height: 100%;
   overflow: auto;
 }
 

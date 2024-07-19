@@ -15,6 +15,10 @@ left.id = "left";
 left.appendChild(new GameAreaView(model).root);
 left.appendChild(new GameConsoleView(model).root);
 
+const body = document.createElement("div");
+body.id = "body";
+
 root.appendChild(new ToolbarView(model).root);
-root.appendChild(left);
-root.appendChild(new RightView(model).root);
+body.appendChild(left);
+body.appendChild(new RightView(model).root);
+root.appendChild(body);
