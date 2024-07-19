@@ -1,6 +1,7 @@
 # Type Racing Game
 Author: Andrew Lu
 
+[Click here to play!](https://uwandrewl.github.io/TypeRacingGame/)
 - An app that allows you to play up to 20 concurrent games!
 - Supports undo/redo actions on font resizing, word completion/selection and resetting the game
 - Built using MVC/Observer pattern for the multiple views on the same internal state
