@@ -1,0 +1,18 @@
+div#gameArea {
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  gap: 10px;
+  width: 66.667%;
+  height: calc(0.66667 * (100vh - 50px));
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+div#gameArea > label#word {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
