@@ -2,7 +2,7 @@ div#app {
     display: flex;
     height: 100vh;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 div#left {
