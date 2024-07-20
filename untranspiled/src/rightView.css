@@ -16,13 +16,14 @@ div#right > div#game {
   width: 100%;
   background: silver;
   border: 2px solid black;
+  flex: 0 0 auto;
   flex-direction: row;
 }
 
 div#right > div#game > label#gameId {
   display: flex;
   flex: 0 0 auto;
-  height: 77.5px;
+  height: 100%;
   width: 80px;
   background: white;
   align-items: center;
@@ -30,7 +31,7 @@ div#right > div#game > label#gameId {
 }
 
 div#right > div#game > div#progressBar {
-  height: 77.5px;
+  height: 100%;
   width: calc(100% - 80px);
   background: rgb(141, 241, 141);
 }
