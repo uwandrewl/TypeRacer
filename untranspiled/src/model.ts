@@ -68,7 +68,7 @@ export class Model extends Subject {
     }
 
     delete(): void {
-        if(this.gameInFocus){
+        if(this.gameInFocus !== -1){
             this.games.splice(this.gameInFocus, 1);
             this.undoManagers.splice(this.gameInFocus, 1);
         } else {
